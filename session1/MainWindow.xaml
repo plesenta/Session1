@@ -1,0 +1,19 @@
+﻿<Window x:Class="session1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:session1"
+        mc:Ignorable="d"
+        Title="Login" Height="450" Width="800">
+    <Grid>
+        <Image Source="C:\Users\natal\Desktop\шарага\4 курс\Экзамен\Общие ресурсы\Общие ресурсы\Images\DS2017_TP09_color.png" Margin="209,10,211,217"></Image>
+        <Label Content="Username:" HorizontalAlignment="Left" Margin="128,235,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password:" HorizontalAlignment="Left" Margin="128,286,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="UserName" HorizontalAlignment="Left" Height="26" Margin="209,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="372" BorderBrush="Black"/>
+        <PasswordBox x:Name="Password" HorizontalAlignment="Left" Margin="209,286,0,0" VerticalAlignment="Top" Width="372" Height="26" BorderBrush="Black"/>
+        <Button x:Name="login_btn" Content="Login" HorizontalAlignment="Left" Margin="223,355,0,0" VerticalAlignment="Top" Width="111" Background="White" Click="login_btn_Click" />
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="446,355,0,0" VerticalAlignment="Top" Width="110" Background="White" Click="Button_Click"/>
+        <Label x:Name="lblTime" Content="" HorizontalAlignment="Left" Margin="368,346,0,0" VerticalAlignment="Top" Width="78" Height="38" FontSize="24"/>
+    </Grid>
+</Window>
